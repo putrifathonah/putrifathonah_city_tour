@@ -75,9 +75,16 @@ class _MyHomePageState extends State<HomeScreen> {
                   'assets/gambar4.jpg',
                   width: 250,
                   height: 250,
-                )
+                ),
               ],
-            )
+            ),
+            SizedBox(height: 10,),
+            Text("Blue Body of Water",
+              style: TextStyle(
+                fontSize: 10,
+                color: Colors.black,
+              ),
+            ),
           ],
         ),
         ),
