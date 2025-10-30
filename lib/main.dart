@@ -43,8 +43,10 @@ class _MyHomePageState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'City Tour'
+          'City Tour',
+          style: TextStyle(color: Colors.black),
         ),
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         child: Column(
