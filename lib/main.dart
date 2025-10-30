@@ -72,7 +72,9 @@ class _MyHomePageState extends State<HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
-                  'assets/gam'
+                  'assets/gambar4.jpg',
+                  width: 250,
+                  height: 250,
                 )
               ],
             )
